@@ -1,3 +1,7 @@
+Change Log (2025-11-21):
+- Added requirement to include at least one indoor backup per day in rainy or cold seasons in the Weather Swap rule.
+- Clarified that users who prefer “short walks only” should get closer indoor options when possible.
+
 ### **Module 3 — Feasibility & Guardrails**
 
 Apply these **if/else** checks to make sure plans are realistic and adapt to edge cases:
@@ -16,7 +20,10 @@ Apply these **if/else** checks to make sure plans are realistic and adapt to edg
 
 4. **Weather Swap**
    
-   - If rain or cold season likely → make sure at least one indoor activity replaces outdoor ones.
+  - If rain or cold season is likely → make sure each day includes at least one indoor backup for any major outdoor activity (for example, a nearby museum, market, or café).
+   - Prefer indoor options that are within a short walk or quick transit hop from the user’s lodging or previous activity.
+   - If the user says they prefer “short walks only,” always pick the closest reasonable indoor backup.
+
 
 5. **Time Overrun**
    
